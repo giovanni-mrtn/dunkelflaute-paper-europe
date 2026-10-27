@@ -1,0 +1,18 @@
+Tech,InvCost,FixedCost,VarCost,FuelCost,Efficiency,Lifetime,EmissionFactor,Notes
+HydroRes,0,22082,0,0,0.9,80,0,
+HydroRoR,0,66245,0,0,0.9,80,0,
+PSHopenTurb,0,11041,0,0,0.87,80,0,Fixed cost split between Turb & Pump
+PSHopenPump,0,11041,0,0,0.87,80,0,
+PSHclosedTurb,0,11041,0,0,0.87,80,0,
+PSHclosedPump,0,11041,0,0,0.87,80,0,
+Gas,436000,7893,4.79,22,0.43,25,0.202,from DEA
+Wind,1090000,15602,1.85,0,1,30,0,
+OffWind,1640000,33000,3.25,0,1,30,0,
+PV,290000,9900,0,0,1,40,0,
+RooftopPV,410000,7500,0,0,1,40,0,
+Battery,65000,0,0,0,0.922,15,0,Inv. Cost in [EUR/MWh]; eta = sqrt(0.85) so round-trip eta_Battery*eta_Inverter = 0.85
+Inverter,200000,38000,0,0,0.922,15,0,eta = sqrt(0.85) so round-trip eta_Battery*eta_Inverter = 0.85
+Nuclear,5000000,126000,3.5,2.6,0.33,40,0,
+Electrolyzer,300000,12000,0,0,0.7,25,0,
+H2Storage,22000,425,0,0,0.9,30,0,
+H2GT,760000,11000,2.4,0,0.6,25,0,CCGT

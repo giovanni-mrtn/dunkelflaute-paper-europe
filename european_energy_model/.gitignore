@@ -1,0 +1,6 @@
+results/
+#input/
+.claude/
+docs/
+src_test/
+test/
